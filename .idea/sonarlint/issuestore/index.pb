@@ -150,5 +150,3 @@ U
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-‚
-Rsrc/bms/bookmyshow/src/main/java/com/example/bookmyshow/BookmyshowApplication.java,7/4/74bf241835764ea9f052dd0195d0effe27f28725
