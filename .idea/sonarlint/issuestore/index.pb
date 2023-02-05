@@ -135,8 +135,6 @@ k
 ;src/ParkingManagemntService/strategy/NearestToExitGate.java,1/9/194076461fb4e1438bee200823b84e25e6df5bb8
 p
 @src/ParkingManagemntService/strategy/SpotAllocationStrategy.java,6/8/68613f9197f7275b507b6424394f9dce08767eea
-U
-%src/ParkingManagemntService/Main.java,8/6/860af644a70cb3d9e8b308c51e5523e50ea94872
 f
 6src/ParkingManagemntService/service/TicketService.java,4/6/467dde6e1618191ffce12c6fb95379eb676fcb0a
 S
