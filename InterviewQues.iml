@@ -12,5 +12,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lombok" level="project" />
     <orderEntry type="library" name="javax.inject-2.5.0-b62" level="project" />
+    <orderEntry type="library" name="springframework.spring.core" level="project" />
+    <orderEntry type="library" name="springframework.boot.spring" level="project" />
+    <orderEntry type="library" name="springframework.data.spring.jpa" level="project" />
+    <orderEntry type="library" name="javax.persistence.api" level="project" />
+    <orderEntry type="library" name="springframework.boot.spring.starter.web.services" level="project" />
+    <orderEntry type="library" name="springframework.boot.spring.test" level="project" />
+    <orderEntry type="library" name="junit.jupiter.api" level="project" />
   </component>
 </module>

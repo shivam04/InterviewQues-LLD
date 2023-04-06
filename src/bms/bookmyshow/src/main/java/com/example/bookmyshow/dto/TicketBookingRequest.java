@@ -1,4 +1,4 @@
-package com.example.bookmyshow.dto;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.dto;
 
 import lombok.Getter;
 import lombok.Setter;

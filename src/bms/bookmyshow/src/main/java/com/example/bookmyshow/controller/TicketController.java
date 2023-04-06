@@ -1,12 +1,12 @@
-package com.example.bookmyshow.controller;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.controller;
 
-import com.example.bookmyshow.dto.TicketBookingRequest;
-import com.example.bookmyshow.dto.TicketBookingResponse;
-import com.example.bookmyshow.exception.ShowAndShowSeatAreNotRelatedException;
-import com.example.bookmyshow.exception.ShowNotAvailableException;
-import com.example.bookmyshow.exception.ShowSeatNotAvailableException;
-import com.example.bookmyshow.model.Ticket;
-import com.example.bookmyshow.service.TicketService;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.dto.TicketBookingRequest;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.dto.TicketBookingResponse;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.exception.ShowAndShowSeatAreNotRelatedException;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.exception.ShowNotAvailableException;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.exception.ShowSeatNotAvailableException;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.model.Ticket;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

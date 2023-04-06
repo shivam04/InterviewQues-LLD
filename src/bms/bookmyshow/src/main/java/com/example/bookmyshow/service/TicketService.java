@@ -1,12 +1,12 @@
-package com.example.bookmyshow.service;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.service;
 
-import com.example.bookmyshow.exception.ShowAndShowSeatAreNotRelatedException;
-import com.example.bookmyshow.exception.ShowNotAvailableException;
-import com.example.bookmyshow.exception.ShowSeatNotAvailableException;
-import com.example.bookmyshow.model.*;
-import com.example.bookmyshow.repository.ShowRepository;
-import com.example.bookmyshow.repository.ShowSeatRepository;
-import com.example.bookmyshow.repository.TicketRepository;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.exception.ShowAndShowSeatAreNotRelatedException;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.exception.ShowNotAvailableException;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.exception.ShowSeatNotAvailableException;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.model.*;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.repository.ShowRepository;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.repository.ShowSeatRepository;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.repository.TicketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;

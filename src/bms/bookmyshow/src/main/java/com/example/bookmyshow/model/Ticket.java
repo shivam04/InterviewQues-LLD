@@ -1,6 +1,6 @@
-package com.example.bookmyshow.model;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 

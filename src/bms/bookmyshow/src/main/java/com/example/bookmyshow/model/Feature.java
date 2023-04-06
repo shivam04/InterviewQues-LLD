@@ -1,4 +1,4 @@
-package com.example.bookmyshow.model;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.model;
 
 public enum Feature {
     TWO_D,  //1

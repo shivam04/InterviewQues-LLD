@@ -1,4 +1,4 @@
-package com.example.bookmyshow;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

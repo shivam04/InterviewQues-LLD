@@ -1,6 +1,6 @@
-package com.example.bookmyshow.dto;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.dto;
 
-import com.example.bookmyshow.model.Ticket;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.model.Ticket;
 import lombok.Getter;
 import lombok.Setter;
 

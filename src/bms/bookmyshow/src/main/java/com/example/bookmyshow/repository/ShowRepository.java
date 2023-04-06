@@ -1,6 +1,6 @@
-package com.example.bookmyshow.repository;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.repository;
 
-import com.example.bookmyshow.model.Show;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.model.Show;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

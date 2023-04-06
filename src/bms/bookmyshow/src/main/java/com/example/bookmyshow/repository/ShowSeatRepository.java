@@ -1,11 +1,11 @@
-package com.example.bookmyshow.repository;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.repository;
 
-import com.example.bookmyshow.model.ShowSeat;
-import jakarta.persistence.LockModeType;
+import bms.bookmyshow.src.main.java.com.example.bookmyshow.model.ShowSeat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;
 import org.springframework.stereotype.Repository;
 
+import javax.persistence.LockModeType;
 import java.util.List;
 
 @Repository

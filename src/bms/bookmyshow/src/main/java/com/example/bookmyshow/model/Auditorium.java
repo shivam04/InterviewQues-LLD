@@ -1,6 +1,10 @@
-package com.example.bookmyshow.model;
+package bms.bookmyshow.src.main.java.com.example.bookmyshow.model;
 
-import jakarta.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
+import javax.persistence.ElementCollection;
+import javax.persistence.Enumerated;
+import javax.persistence.EnumType;
 import lombok.Getter;
 import lombok.Setter;
 
