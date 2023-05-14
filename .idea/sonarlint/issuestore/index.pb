@@ -79,16 +79,6 @@ V
 &src/loggerImplement/DriveMyLogger.java,d/f/df6235bf706913f7efd2988f47a694a26fc74796
 X
 (src/loggerImplement/MyLoggerTreeMap.java,e/5/e5fff31efa1c9c9fc52128f30b136d771a0888be
-L
-src/deginhotcounter/Question,1/4/14e444c666da88be023ac55eb625e049f5370d44
-X
-(src/deginhotcounter/DriveHitCounter.java,8/c/8ce918940adc5c07213139b7f9619f6ac8ac207d
-S
-#src/deginhotcounter/HitCounter.java,2/2/225e91b95030f888596be24bf2906f1cf74d2965
-Y
-)src/deginhotcounter/DriveHitCounter2.java,d/f/dfbd54220628a85ab0a9050e239e959fd80c7097
-T
-$src/deginhotcounter/HitCounter2.java,6/5/655a0eae2389ebbc04fa4dc6f77e1f383028ed27
 N
 src/TicTacToe/models/Cell.java,9/1/9106a9125563d961a79b6caf2c81a763fc846570
 T
