@@ -15,11 +15,12 @@ public class SlidingWindowCounter {
 
     public boolean allow() {
         long currTime = System.currentTimeMillis();
-        System.out.println("Current Time of Request: " + new Date(currTime));
+        System.out.println("Current Time of Request: " + new Date(currTime) + " " + currTime);
         long curWindowKey = currTime / 60000 * 60000;
-        System.out.println("Current Window Time: " + curWindowKey);
+        System.out.println("Current Window Key: " + curWindowKey);
         windows.putIfAbsent(curWindowKey, new AtomicInteger(0));
         long preWindowKey = curWindowKey - 60000;
+        System.out.println("Previous Window Key: " + preWindowKey);
         AtomicInteger preCount = windows.get(preWindowKey);
         if (preCount == null) {
             int count = windows.get(curWindowKey).incrementAndGet();
