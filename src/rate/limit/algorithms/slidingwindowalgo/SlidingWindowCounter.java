@@ -22,11 +22,14 @@ public class SlidingWindowCounter {
         long preWindowKey = curWindowKey - 60000;
         AtomicInteger preCount = windows.get(preWindowKey);
         if (preCount == null) {
-            return windows.get(curWindowKey).incrementAndGet() <= maxRequest;
+            int count = windows.get(curWindowKey).incrementAndGet();
+            System.out.println("Existing Count: " + count);
+            return  count <= maxRequest;
         }
         double preWeight = 1 - (currTime - curWindowKey) / 60000.0;
         long count = (long) (preCount.get() * preWeight
                 + windows.get(curWindowKey).incrementAndGet());
+        System.out.println("Existing Count: " + count);
         return count <= maxRequest;
     }
 }
